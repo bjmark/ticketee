@@ -7,14 +7,19 @@ When /I follow "New Project"/ do
 end
 
 When /I fill in "Name" with "TextMate 2"/ do 
-  pending # express the regexp above with the code you wish you had
+   fill_in('Name', :with =>'TextMate 2')
 end
 
-When /^I press "([^"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+When /I press "Create Project"/ do
+  click_button('Create Project')
 end
 
-Then /^I should see "([^"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then /I should see "Project has been created"/ do
+  text = 'project has been created'
+#  if page.respond_to? :should
+    page.should have_content(text)
+#  else
+#    assert page.has_content?(text)
+#  end
 end
 

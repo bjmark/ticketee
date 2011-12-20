@@ -1,4 +1,5 @@
 <p>name:<%=@project.name%></p>
 <p><%=link_to 'edit',edit_project_path(@project)%></p>
 <p><%=link_to 'delete',project_path(@project),:method=>'delete',:confirm=>'are you sure?'%></p>
+<p><%=link_to 'new ticket',new_project_ticket_path(@project)%>
 

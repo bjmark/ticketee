@@ -46,3 +46,4 @@ group :test do
 end
 
 gem 'devise'
+gem 'email_spec'

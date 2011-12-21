@@ -1,9 +1,9 @@
 features = {
-  'creating_projects.feature'=>'creating_projects.rb',
-  'viewing_projects.feature'=>'project_steps.rb',
-  'editing_project.feature'=>'editing_project.rb',
-  'deleting_project.feature'=>'deleting_project.rb',
-  'creating_ticket.feature'=>'creating_ticket.rb',
+  #'creating_projects.feature'=>'creating_projects.rb',
+  #'viewing_projects.feature'=>'project_steps.rb',
+  #'editing_project.feature'=>'editing_project.rb',
+  #'deleting_project.feature'=>'deleting_project.rb',
+  #'creating_ticket.feature'=>'creating_ticket.rb',
   'signing_up.feature'=>'signing_up.rb',
 }
 

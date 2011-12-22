@@ -4,7 +4,8 @@ features = {
   #'editing_project.feature'=>'editing_project.rb',
   #'deleting_project.feature'=>'deleting_project.rb',
   #'creating_ticket.feature'=>'creating_ticket.rb',
-  'signing_up.feature'=>'signing_up.rb',
+  #'signing_up.feature'=>'signing_up.rb',
+  'signing_in.feature'=>'signing_in.rb',
 }
 
 File.open('cu.sh','w') do |f|
